@@ -1,0 +1,2 @@
+# activity_component
+ユーザーのアクティビティを可視化するUIのプロトタイプ
