@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(53, 12px);
+    grid-template-rows: repeat(7, 12px);
+    gap: 3px;
+}
+
+.day {
+    width: 12px;
+    height: 12px;
+    background-color: #ebedf0;
+}
+
+.day.contributed-1 {
+    background-color: #c6e48b;
+}
+
+.day.contributed-2 {
+    background-color: #7bc96f;
+}
+
+.day.contributed-3 {
+    background-color: #239a3b;
+}
+
+.day.contributed-4 {
+    background-color: #196127;
+}
